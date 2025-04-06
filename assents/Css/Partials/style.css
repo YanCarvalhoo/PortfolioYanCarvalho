@@ -179,7 +179,7 @@ li a:hover {
 }
 
 .text-container .yan {
-    margin-top: 5%;
+    margin-top: 0%;
     margin-left: 34.5%;
     z-index: 1;
 }
@@ -651,7 +651,6 @@ li a:hover {
   
   .scroll-down {
     position: absolute;
-    margin-top: 3%;
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
