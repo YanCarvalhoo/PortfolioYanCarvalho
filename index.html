@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Carvalho | Developer</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='assents/Css/Partials/style.css'>
+
+  <link rel="icon" type="image/png" href="assents/Css/image/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/svg+xml" href="assents/Css/image/favicon.svg">
+  <link rel="shortcut icon" href="assents/Css/image/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assents/Css/image/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-title" content="Carvalho Developer">
+  <link rel="manifest" href="assents/Css/image/site.webmanifest">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="assents/Css/Partials/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <link rel="icon" type="image/png" href="assents/Css/image/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="assents/Css/image/favicon.svg" />
-  <link rel="shortcut icon" href="assents/Css/image/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="assents/Css/image/apple-touch-icon.png" />
-  <meta name="apple-mobile-web-app-title" content="Carvalho Developer" />
-  <link rel="manifest" href="assents/Css/image/site.webmanifest" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
@@ -73,24 +76,33 @@
     </div> 
     <div class="box-contato" id="Contato">
         <video class="background-sobre" src="assents/Css/video/" autoplay muted loop playsinline></video>
-        <form class="formulario" action="https://formsubmit.co/devyancarvalho15@gmail.com" method="POST">
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="https://teusite.com/obrigado.html">
-            <h2>Contato</h2>
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required /> 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required />
-            <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
-            <button type="submit">Enviar</button>
-            <div class="form-social-icons">
-              <a href="https://github.com/YanCarvalhoo" target="_blank"><i class="bi bi-github"></i></a>
-              <a href="https://www.linkedin.com/in/yan-carvalho-20200230b" target="_blank"><i class="bi bi-linkedin"></i></a>
-              <a href="mailto:devyancarvalho15@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-              <a href="https://instagram.com/yaan_.n" target="_blank"><i class="bi bi-instagram"></i></a>
-            </div>
-        </form>          
+        <form action="https://formspree.io/f/manelqjl" method="POST" class="formulario">
+          <h2>Entre em Contato</h2>
+      
+          <label>
+            Seu nome:
+            <input type="text" name="name" placeholder="Digite seu nome" required>
+          </label>
+      
+          <label>
+            Seu e-mail:
+            <input type="email" name="email" placeholder="Digite seu e-mail" required>
+          </label>
+      
+          <label>
+            Mensagem:
+            <textarea name="message" placeholder="Digite sua mensagem" required></textarea>
+          </label>
+      
+          <button type="submit">Enviar</button>
+      
+          <div class="form-social-icons">
+            <a href="https://github.com/YanCarvalhoo" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/yan-carvalho-20200230b" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="mailto:devyancarvalho15@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+            <a href="https://instagram.com/yaan_.n" target="_blank"><i class="bi bi-instagram"></i></a>
+          </div>
+        </form>
   </section>
   <footer class="footer">
     <div class="footer-content">
