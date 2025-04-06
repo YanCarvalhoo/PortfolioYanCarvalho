@@ -9,3 +9,8 @@ var typed = new Typed(".text", {
     backDelay: 1000,
     loop: true
 });
+
+AOS.init({
+    duration: 1000,
+    once: true
+  });
