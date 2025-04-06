@@ -417,31 +417,6 @@ li a:hover {
   padding: 0 20px;
 }
 
-/* ANIMAÇÃO */
-.scroll-down {
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 16px;
-  color: white;
-  font-weight: bold;
-  z-index: 10;
-}
-
-.bounce {
-  animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(15px);
-  }
-}
-
 /* RESPONSIVIDADE */
 @media only screen and (max-width: 1024px) {
   nav { max-width: 98%; }
@@ -572,3 +547,57 @@ li a:hover {
     padding: 20px;
   }
 }
+
+/* Desktop - 1600x992px ~ scale(0.3181) */
+@media screen and (max-width: 1600px) {
+  .text-container .yan,
+  .text-container .text-left,
+  .text-container .text-rigth,
+  .text-container .text-nav {
+    transform: scale(0.3181);
+  }
+}
+
+/* Laptop - 1280x802px ~ scale(0.277) */
+@media screen and (max-width: 1280px) {
+  .text-container .yan,
+  .text-container .text-left,
+  .text-container .text-rigth,
+  .text-container .text-nav {
+    transform: scale(0.277);
+  }
+}
+
+/* Tablet - 768x1024px ~ scale(0.219) */
+@media screen and (max-width: 768px) {
+  .text-container .yan,
+  .text-container .text-left,
+  .text-container .text-rigth,
+  .text-container .text-nav {
+    transform: scale(0.219);
+  }
+
+  .Dev-Yan {
+    transform: scale(0.6);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Mobile - 320x480px ~ scale(0.219 também) */
+@media screen and (max-width: 480px) {
+  .text-container .yan,
+  .text-container .text-left,
+  .text-container .text-rigth,
+  .text-container .text-nav {
+    transform: scale(0.219);
+  }
+
+  .Dev-Yan {
+    transform: scale(0.5);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
